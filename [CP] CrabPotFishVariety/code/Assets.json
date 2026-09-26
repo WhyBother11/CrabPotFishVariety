@@ -1,0 +1,10 @@
+{
+    "Changes": [
+        {
+            "Log Name": "Load Fish Sprites",
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/fish, Mods/{{ModID}}/aquarium_fish",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        }
+    ]
+}

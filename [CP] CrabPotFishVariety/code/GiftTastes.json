@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": "{{ModID}}_SandSnail {{ModID}}_LeafySnail {{ModID}}_Leech",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 1],
+                    "Value": "{{ModID}}_SandSnail {{ModID}}_LeafySnail",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 5],
+                    "Value": "{{ModID}}_Leech",
+                    "Delimiter": " "
+                },
+            ]
+        }
+    ]
+}

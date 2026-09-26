@@ -1,0 +1,402 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Fish Pond Data",
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+                "{{ModID}}_DesertCrabPotFish": {
+                    "Id": "{{ModID}}_DesertCrabPotFish",
+                    "RequiredTags": [
+                        "fish_crab_pot",
+                        "fish_desert"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.075,
+                            "ItemId": "(O)802", // cactus seeds
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.075,
+                            "ItemId": "(O)261", // warp totem desert
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.3,
+                            "ItemId": "(O)812", // roe
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)168", // trash
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)169", // driftwood
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)170", // glasses
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)171", // cd
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)172", // newspaper
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.3,
+                            "ItemId": "(O)812", // roe
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)330 5", // clay
+                            "(O)771 15" // fiber
+                        ],
+                        "6": [
+                            "(O)386", // iridium ore
+                            "(O)709 5", // hardwood
+                            "(O)390 20" // stone
+                        ],
+                        "8": [
+                            "(O)90 5", // cactus
+                            "(O)88 5" // coconut
+                        ]
+                    }
+                },
+                "{{ModID}}_SwampCrabPotFish": {
+                    "Id": "{{ModID}}_SwampCrabPotFish",
+                    "RequiredTags": [
+                        "fish_crab_pot",
+                        "fish_swamp"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.1,
+                            "ItemId": "(O)Moss",
+                            "MinQuantity": 3,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.1,
+                            "ItemId": "(O)771", // fiber
+                            "MinQuantity": 5,
+                            "MaxQuantity": 10
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.15,
+                            "ItemId": "(O)Moss",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.15,
+                            "ItemId": "(O)771", // fiber
+                            "MinQuantity": 3,
+                            "MaxQuantity": 8
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.15,
+                            "ItemId": "(O)Moss",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.15,
+                            "ItemId": "(O)771", // fiber
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)168", // trash
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)169", // driftwood
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)170", // glasses
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)171", // cd
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)172", // newspaper
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.3,
+                            "ItemId": "(O)812", // roe
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1,
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)330 5", // clay
+                            "(O)771 15", // fiber
+                            "(O)Moss 5" // moss
+                        ],
+                        "6": [
+                            "(O)388 20", // wood
+                            "(O)709 5", // hardwood
+                            "(O)390 20" // stone
+                        ],
+                        "8": [
+                            "(O)768 5",
+                            "(O)774",
+                            "(O)403"
+                        ]
+                    }
+                },
+                "{{ModID}}_SecretPondCrabPotFish": {
+                    "Id": "{{ModID}}_SecretPondCrabPotFish",
+                    "RequiredTags": [
+                        "fish_crab_pot",
+                        "fish_secret_pond"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.2,
+                            "ItemId": "(O)Moss",
+                            "MinQuantity": 3,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.2,
+                            "ItemId": "(O)771", // fiber
+                            "MinQuantity": 5,
+                            "MaxQuantity": 10
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.35,
+                            "ItemId": "(O)Moss",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.35,
+                            "ItemId": "(O)771", // fiber
+                            "MinQuantity": 3,
+                            "MaxQuantity": 8
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.35,
+                            "ItemId": "(O)Moss",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.35,
+                            "ItemId": "(O)771", // fiber
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)168", // trash
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)169", // driftwood
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)170", // glasses
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)171", // cd
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)172", // newspaper
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.3,
+                            "ItemId": "(O)812", // roe
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)330 5", // clay
+                            "(O)771 15", // fiber
+                            "(O)Moss 5" // moss
+                        ],
+                        "6": [
+                            "(O)388 20", // wood
+                            "(O)709 5", // hardwood
+                            "(O)390 20" // stone
+                        ],
+                        "8": [
+                            "(O)309 5", // acorn
+                            "(O)310 5", // maple
+                            "(O)311 5", // pine
+                        ]
+                    }
+                },
+                "{{ModID}}_SewersCrabPotFish": {
+                    "Id": "{{ModID}}_SewersCrabPotFish",
+                    "RequiredTags": [
+                        "fish_crab_pot",
+                        "fish_sewers"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.15,
+                            "ItemId": "(O)157", // white algae
+                            "MinQuantity": 3,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.15,
+                            "ItemId": "(O)157", // white algae
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)168", // trash
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)169", // driftwood
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)170", // glasses
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)171", // cd
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.05,
+                            "ItemId": "(O)172", // newspaper
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.3,
+                            "ItemId": "(O)812", // roe
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)168",
+                            "(O)169",
+                            "(O)170",
+                            "(O)171",
+                            "(O)172"
+                        ],
+                        "6": [
+                            "(O)388 20", // wood
+                            "(O)709 5", // hardwood
+                            "(O)390 20" // stone
+                        ],
+                        "8": [
+                            "(O)768 5",
+                            "(O)774",
+                            "(O)403"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

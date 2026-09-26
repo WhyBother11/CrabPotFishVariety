@@ -1,0 +1,4 @@
+{
+    "config.option.allow-vanilla-fish": "Allow Vanilla Crab Pot Fish",
+    "config.option.allow-vanilla-fish.tooltip": "Whether all vanilla crab pot fish should be restored for affected locations (currently only desert).\nMod fish will still be caught only in their specific areas."
+}

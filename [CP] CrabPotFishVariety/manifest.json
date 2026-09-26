@@ -1,0 +1,13 @@
+{
+    "Name": "Crab Pot Fish Variety CP component",
+    "Author": "WhyBother11",
+    "Version": "%ProjectVersion%",
+    "UniqueId": "WhyBother11.CrabPotFishVarietyCP",
+    "Description": "Introduces location based crab pot fish types.",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [
+        "Nexus:52901"
+    ]
+}

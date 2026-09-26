@@ -1,0 +1,198 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Fish Aquarium Data",
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "{{ModID}}_DesertSnail": "0/crawl/0//0 0 1//Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_LeafySnail": "2/crawl/2//2 2 3//Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_MutantSnake": "4/eel/////Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_SandWorm": "5/static/5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6////Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_FairyShrimp": "7/float/////Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_Leech": "8/float/8 8 8 8 8 8 8 8 8 8 8 8 9 9 9////Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_Sticky": "10/ground/10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 10 10 10 10 12 12 12 12////Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_PaleCrayfish": "13/crawl/////Mods\\{{ModID}}\\aquarium_fish",
+                "{{ModID}}_SandCrawler": "14/crawl//14/14 15/14/Mods\\{{ModID}}\\aquarium_fish"
+            }
+        },
+        {
+            "LogName": "Load Fish",
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "{{ModID}}_FairyShrimp": "{{ModID}}_FairyShrimp/trap/.3/688 .45/WhyBother11.CrabPotFishVariety_desert/1/3/false",
+                "{{ModID}}_SandCrawler": "{{ModID}}_SandCrawler/trap/.2/688 .45/WhyBother11.CrabPotFishVariety_desert/1/15/false",
+                "{{ModID}}_DesertSnail": "{{ModID}}_DesertSnail/trap/.3/688 .45/WhyBother11.CrabPotFishVariety_desert/1/4/false",
+                "{{ModID}}_SandWorm": "{{ModID}}_SandWorm/trap/.2/688 .45/WhyBother11.CrabPotFishVariety_desert/5/20/false",
+                "{{ModID}}_Leech": "{{ModID}}_Leech/trap/.6/688 .45/WhyBother11.CrabPotFishVariety_swamp/1/8/false",
+                "{{ModID}}_LeafySnail": "{{ModID}}_LeafySnail/trap/.5/688 .45/WhyBother11.CrabPotFishVariety_secretWoods/1/6/false",
+                "{{ModID}}_Sticky": "{{ModID}}_Sticky/trap/.5/688 .45/WhyBother11.CrabPotFishVariety_secretWoods/1/8/false",
+                "{{ModID}}_MutantSnake": "{{ModID}}_MutantSnake/trap/.4/688 .45/WhyBother11.CrabPotFishVariety_sewers WhyBother11.CrabPotFishVariety_bugLair/5/20/false",
+                "{{ModID}}_PaleCrayfish": "{{ModID}}_PaleCrayfish/trap/.5/688 .45/WhyBother11.CrabPotFishVariety_sewers/5/15/false"
+            }
+        },
+        {
+            "LogName": "Load Fish Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_DesertSnail": {
+                    "Name": "{{ModID}}_DesertSnail",
+                    "DisplayName": "{{i18n:fish.desert-snail.display-name}}",
+                    "Description": "{{i18n:fish.desert-snail.description}}",
+                    "Edibility": "-300",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "50",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "color_white",
+                        "fish_crab_pot",
+                        "fish_desert",
+                        "snail_item",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_SandCrawler": {
+                    "Name": "{{ModID}}_SandCrawler",
+                    "DisplayName": "{{i18n:fish.sand-crawler.display-name}}",
+                    "Description": "{{i18n:fish.sand-crawler.description}}",
+                    "Edibility": "-300",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "150",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "color_sand",
+                        "fish_crab_pot",
+                        "fish_desert",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_FairyShrimp": {
+                    "Name": "{{ModID}}_FairyShrimp",
+                    "DisplayName": "{{i18n:fish.fairy-shrimp.display-name}}",
+                    "Description": "{{i18n:fish.fairy-shrimp.description}}",
+                    "Edibility": "-300",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "75",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "color_dark_orange",
+                        "fish_crab_pot",
+                        "fish_desert",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_SandWorm": {
+                    "Name": "{{ModID}}_SandWorm",
+                    "DisplayName": "{{i18n:fish.sand-worm.display-name}}",
+                    "Description": "{{i18n:fish.sand-worm.description}}",
+                    "Edibility": "-300",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "125",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "color_sand",
+                        "fish_crab_pot",
+                        "fish_desert",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_Leech": {
+                    "Name": "{{ModID}}_Leech",
+                    "DisplayName": "{{i18n:fish.leech.display-name}}",
+                    "Description": "{{i18n:fish.leech.description}}",
+                    "Edibility": "-300",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "50",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "color_dark_brown",
+                        "fish_crab_pot",
+                        "fish_swamp",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_LeafySnail": {
+                    "Name": "{{ModID}}_LeafySnail",
+                    "DisplayName": "{{i18n:fish.leafy-snail.display-name}}",
+                    "Description": "{{i18n:fish.leafy-snail.description}}",
+                    "Edibility": "-300",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "100",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "color_brown",
+                        "fish_crab_pot",
+                        "fish_secret_pond",
+                        "snail_item",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_Sticky": {
+                    "Name": "{{ModID}}_Sticky",
+                    "DisplayName": "{{i18n:fish.sticky.display-name}}",
+                    "Description": "{{i18n:fish.sticky.description}}",
+                    "Edibility": "-300",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "80",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "color_brown",
+                        "fish_crab_pot",
+                        "fish_secret_pond",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_MutantSnake": {
+                    "Name": "{{ModID}}_MutantSnake",
+                    "DisplayName": "{{i18n:fish.mutant-snake.display-name}}",
+                    "Description": "{{i18n:fish.mutant-snake.description}}",
+                    "Edibility": "-150",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "150",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "color_green",
+                        "fish_crab_pot",
+                        "fish_sewers",
+                        "fish_has_roe"
+                    ]
+                },
+                "{{ModID}}_PaleCrayfish": {
+                    "Name": "{{ModID}}_PaleCrayfish",
+                    "DisplayName": "{{i18n:fish.pale-crayfish.display-name}}",
+                    "Description": "{{i18n:fish.pale-crayfish.description}}",
+                    "Edibility": "-150",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": "70",
+                    "Texture": "Mods/{{ModID}}/fish",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "color_white",
+                        "fish_crab_pot",
+                        "fish_sewers",
+                        "fish_has_roe"
+                    ]
+                }
+            }
+        }
+    ]
+}

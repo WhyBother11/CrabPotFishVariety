@@ -1,0 +1,12 @@
+{
+    "Name": "Crab Pot Fish Variety",
+    "Author": "WhyBother11",
+    "Version": "%ProjectVersion%",
+    "Description": "Introduces location based crab pot fish types.",
+    "UniqueID": "WhyBother11.CrabPotFishVariety",
+    "EntryDll": "CrabPotFishVariety.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [
+        "Nexus:52901"
+    ]
+}
