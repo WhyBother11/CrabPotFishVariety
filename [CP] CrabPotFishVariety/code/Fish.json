@@ -27,9 +27,9 @@
                 "{{ModID}}_SandWorm": "{{ModID}}_SandWorm/trap/.2/688 .45/WhyBother11.CrabPotFishVariety_desert/5/20/false",
                 "{{ModID}}_Leech": "{{ModID}}_Leech/trap/.6/688 .45/WhyBother11.CrabPotFishVariety_swamp/1/8/false",
                 "{{ModID}}_LeafySnail": "{{ModID}}_LeafySnail/trap/.5/688 .45/WhyBother11.CrabPotFishVariety_secretWoods/1/6/false",
-                "{{ModID}}_Sticky": "{{ModID}}_Sticky/trap/.5/688 .45/WhyBother11.CrabPotFishVariety_secretWoods/1/8/false",
-                "{{ModID}}_MutantSnake": "{{ModID}}_MutantSnake/trap/.4/688 .45/WhyBother11.CrabPotFishVariety_sewers WhyBother11.CrabPotFishVariety_bugLair/5/20/false",
-                "{{ModID}}_PaleCrayfish": "{{ModID}}_PaleCrayfish/trap/.5/688 .45/WhyBother11.CrabPotFishVariety_sewers/5/15/false"
+                "{{ModID}}_Sticky": "{{ModID}}_Sticky/trap/.6/688 .65/WhyBother11.CrabPotFishVariety_secretWoods/1/8/false",
+                "{{ModID}}_MutantSnake": "{{ModID}}_MutantSnake/trap/.5/688 .45/WhyBother11.CrabPotFishVariety_sewers WhyBother11.CrabPotFishVariety_bugLair/5/20/false",
+                "{{ModID}}_PaleCrayfish": "{{ModID}}_PaleCrayfish/trap/.65/688 .45/WhyBother11.CrabPotFishVariety_sewers/5/15/false"
             }
         },
         {
